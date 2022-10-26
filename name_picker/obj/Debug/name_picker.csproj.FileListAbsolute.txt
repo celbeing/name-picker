@@ -1,0 +1,10 @@
+C:\Users\kimsd\source\repos\name-picker\name_picker\bin\Debug\name_picker.exe.config
+C:\Users\kimsd\source\repos\name-picker\name_picker\bin\Debug\name_picker.exe
+C:\Users\kimsd\source\repos\name-picker\name_picker\bin\Debug\name_picker.pdb
+C:\Users\kimsd\source\repos\name-picker\name_picker\obj\Debug\name_picker.csproj.AssemblyReference.cache
+C:\Users\kimsd\source\repos\name-picker\name_picker\obj\Debug\name_picker.Properties.Resources.resources
+C:\Users\kimsd\source\repos\name-picker\name_picker\obj\Debug\name_picker.csproj.GenerateResource.cache
+C:\Users\kimsd\source\repos\name-picker\name_picker\obj\Debug\name_picker.csproj.CoreCompileInputs.cache
+C:\Users\kimsd\source\repos\name-picker\name_picker\obj\Debug\name_picker.exe
+C:\Users\kimsd\source\repos\name-picker\name_picker\obj\Debug\name_picker.pdb
+C:\Users\kimsd\source\repos\name-picker\name_picker\obj\Debug\name_picker.main.resources
