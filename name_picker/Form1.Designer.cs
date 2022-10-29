@@ -35,7 +35,9 @@ namespace name_picker
             // 
             // pic_book
             // 
-            this.pic_book.Location = new System.Drawing.Point(53, 36);
+            this.pic_book.Location = new System.Drawing.Point(326, 322);
+            this.pic_book.Margin = new System.Windows.Forms.Padding(0);
+            this.pic_book.MaximumSize = new System.Drawing.Size(296, 256);
             this.pic_book.Name = "pic_book";
             this.pic_book.Size = new System.Drawing.Size(148, 128);
             this.pic_book.TabIndex = 0;
@@ -48,9 +50,10 @@ namespace name_picker
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pic_book);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "main";
             this.Text = "이름뽑기";
+            this.ClientSizeChanged += new System.EventHandler(this.sizeChange);
             ((System.ComponentModel.ISupportInitialize)(this.pic_book)).EndInit();
             this.ResumeLayout(false);
 

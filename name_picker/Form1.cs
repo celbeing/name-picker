@@ -15,63 +15,8 @@ namespace name_picker
         public main()
         {
             InitializeComponent();
-            List<Bitmap> book = new List<Bitmap>();
-            // book 프레임 이미지 생성
-            {
-                book.Add(new Bitmap(name_picker.Properties.Resources.book1));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book2));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book3));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book4));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book5));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book6));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book7));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book8));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book9));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book10));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book11));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book12));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book13));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book14));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book15));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book16));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book17));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book18));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book19));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book20));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book21));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book22));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book23));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book24));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book25));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book26));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book27));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book28));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book29));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book30));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book31));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book32));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book33));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book34));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book35));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book36));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book37));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book38));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book39));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book40));
-                book.Add(new Bitmap(name_picker.Properties.Resources.book41));
-            }
-            
+            pic_book.Image = name_picker.Properties.Resources.book;
         }
-
-        static void Animate_Image(PictureBox pic, List<Bitmap> frames, int ms)
-        {
-            for (int i = 0; i < frames.Count; i++)
-            {
-                pic.Image = frames[i];
-                Delay(ms);
-            }
-        }
-
         static void Delay(int ms)
         {
             DateTime dateTimeNow = DateTime.Now;
@@ -83,6 +28,11 @@ namespace name_picker
                 dateTimeNow = DateTime.Now;
             }
             return;
+        }
+        private void sizeChange(object sender, EventArgs e)
+        {
+            // pic_book size = 148*128
+            pic_book.Location = new System.Drawing.Point((this.ClientSize.Width) / 2 - 74, this.ClientSize.Height-128);
         }
 
         private void pic_book_Click(object sender, EventArgs e)
