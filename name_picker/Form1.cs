@@ -15,7 +15,8 @@ namespace name_picker
         public main()
         {
             InitializeComponent();
-            pic_book.Image = name_picker.Properties.Resources.book;
+            pic_book.Image = name_picker.Properties.Resources.book_x2_100ms;
+            label_last.Parent = this;
         }
         static void Delay(int ms)
         {
@@ -31,8 +32,8 @@ namespace name_picker
         }
         private void sizeChange(object sender, EventArgs e)
         {
-            // pic_book size = 148*128
-            pic_book.Location = new System.Drawing.Point((this.ClientSize.Width) / 2 - 74, this.ClientSize.Height-128);
+            // pic_book size = 296*256
+            pic_book.Location = new System.Drawing.Point((this.ClientSize.Width) / 2 - 148, this.ClientSize.Height-256);
         }
 
         private void pic_book_Click(object sender, EventArgs e)
