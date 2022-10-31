@@ -56,7 +56,7 @@ namespace name_picker
             // 
             this.label_who.AutoSize = true;
             this.label_who.Font = new System.Drawing.Font("DOSMyungjo", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label_who.Location = new System.Drawing.Point(247, 87);
+            this.label_who.Location = new System.Drawing.Point(582, 386);
             this.label_who.Name = "label_who";
             this.label_who.Size = new System.Drawing.Size(162, 27);
             this.label_who.TabIndex = 1;
@@ -67,7 +67,7 @@ namespace name_picker
             this.label_status.AutoSize = true;
             this.label_status.BackColor = System.Drawing.Color.Transparent;
             this.label_status.Font = new System.Drawing.Font("DOSMyungjo", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label_status.Location = new System.Drawing.Point(248, 49);
+            this.label_status.Location = new System.Drawing.Point(583, 403);
             this.label_status.Name = "label_status";
             this.label_status.Size = new System.Drawing.Size(80, 21);
             this.label_status.TabIndex = 2;
@@ -77,7 +77,7 @@ namespace name_picker
             // 
             this.label_finding.AutoSize = true;
             this.label_finding.Font = new System.Drawing.Font("DOSMyungjo", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label_finding.Location = new System.Drawing.Point(248, 132);
+            this.label_finding.Location = new System.Drawing.Point(538, 392);
             this.label_finding.Name = "label_finding";
             this.label_finding.Size = new System.Drawing.Size(250, 21);
             this.label_finding.TabIndex = 3;
@@ -87,7 +87,7 @@ namespace name_picker
             // 
             this.label_whois.AutoSize = true;
             this.label_whois.Font = new System.Drawing.Font("DOSMyungjo", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label_whois.Location = new System.Drawing.Point(247, 167);
+            this.label_whois.Location = new System.Drawing.Point(568, 386);
             this.label_whois.Name = "label_whois";
             this.label_whois.Size = new System.Drawing.Size(176, 27);
             this.label_whois.TabIndex = 4;
@@ -97,7 +97,7 @@ namespace name_picker
             // 
             this.label_name.AutoSize = true;
             this.label_name.Font = new System.Drawing.Font("DOSMyungjo", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label_name.Location = new System.Drawing.Point(278, 219);
+            this.label_name.Location = new System.Drawing.Point(566, 384);
             this.label_name.Name = "label_name";
             this.label_name.Size = new System.Drawing.Size(97, 40);
             this.label_name.TabIndex = 5;
@@ -109,7 +109,7 @@ namespace name_picker
             this.label_last.BackColor = System.Drawing.Color.Transparent;
             this.label_last.Font = new System.Drawing.Font("DOSMyungjo", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label_last.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_last.Location = new System.Drawing.Point(347, 270);
+            this.label_last.Location = new System.Drawing.Point(582, 386);
             this.label_last.Name = "label_last";
             this.label_last.Size = new System.Drawing.Size(161, 27);
             this.label_last.TabIndex = 6;
