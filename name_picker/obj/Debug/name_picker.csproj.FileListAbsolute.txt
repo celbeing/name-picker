@@ -8,3 +8,4 @@ C:\Users\kimsd\source\repos\name-picker\name_picker\obj\Debug\name_picker.csproj
 C:\Users\kimsd\source\repos\name-picker\name_picker\obj\Debug\name_picker.exe
 C:\Users\kimsd\source\repos\name-picker\name_picker\obj\Debug\name_picker.pdb
 C:\Users\kimsd\source\repos\name-picker\name_picker\obj\Debug\name_picker.main.resources
+C:\Users\kimsd\source\repos\name-picker\name_picker\obj\Debug\name_picker.Editor.resources
