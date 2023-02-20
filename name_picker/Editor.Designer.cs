@@ -131,6 +131,7 @@ namespace name_picker
             this.button_save.TabIndex = 1;
             this.button_save.Text = "저장";
             this.button_save.UseVisualStyleBackColor = true;
+            this.button_save.Click += new System.EventHandler(this.button_save_Click);
             // 
             // button_load
             // 
